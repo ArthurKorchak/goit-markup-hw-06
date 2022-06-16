@@ -629,7 +629,6 @@ body ul {
     border-radius: 4px;
 }
 .modal input:focus,
-.modal input:focus + svg:not(.no-display),
 .modal textarea:focus {
     outline: none;
     border-color: var(--accent-color);
