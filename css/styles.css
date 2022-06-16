@@ -625,9 +625,25 @@ body ul {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 }
+.modal input:focus,
+.modal input:focus +svg,
+.modal textarea:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+}
 .modal textarea {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+}
+.modal div {
+    position: relative;
+}
+.modal-ico {
+    position: absolute;
+    top: 20px;
+    left: 21px;
+    transform: translate(-50%, -50%);
 }
 .label-text {
     font-family: 'Roboto';
@@ -682,7 +698,6 @@ body ul {
 .subscribe input:focus {
     outline: none;
     border: 1px solid var(--accent-color);
-    color: var(--accent-color);
 }
 .subscribe button {
     display: flex;
