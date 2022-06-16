@@ -377,6 +377,30 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
+            <p>Оставьте свои данные, мы вам перезвоним</p>
+            <form class="flex">
+                <label>
+                    <span class="label-text">Имя</span>
+                    <input class="name" type="text" name="text" placeholder="">
+                </label>
+                <label>
+                    <span class="label-text">Телефон</span>
+                    <input class="phone" type="phone" name="phone" placeholder="">
+                </label>
+                <label>
+                    <span class="label-text">Почта</span>
+                    <input class="email" type="email" name="email" placeholder="">
+                </label>
+                <label>
+                    <span class="label-text">Комментарий</span>
+                    <textarea class="comment" name="comment" rows="5" placeholder="Введите текст"></textarea>
+                </label>
+                <label class="user-agr">
+                    <input class="checkbox" type="checkbox" name="hobby" value="reading" />
+                    <span class="user-agr-text">Соглашаюсь с рассылкой и принимаю Условия договора</span>
+                </label>
+                <button class="button form-2" type="submit">Отправить</button>
+            </form>
             <button class="btn-modal flex" type="button" name="close-form" data-modal-close>
                 <svg width="11px" height="11px">
                     <use href="./images/symbol-defs.svg#icon-modal-close"></use>
